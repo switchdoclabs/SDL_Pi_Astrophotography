@@ -1,0 +1,33 @@
+{
+    "timezone": "US/Eastern",
+    "datetime_format": "%Y-%m-%d-%H-%M-%S%z",
+    "mqtt": {
+        "client_name": "PyNightSky",
+        "host": "192.168.0.80",
+        "port": 1883,
+        "topic": "ws/cameron/telemetry/",
+        "qos": 0
+    },
+    "camera": {
+        "resolution": "(3280, 2464)",
+        "framerate": 10,
+        "shutter_speed": 10000000,
+        "iso": 800,
+        "sensor_mode": 3,
+        "exposure_mode": "off"
+    },
+    "images": {
+        "format": "png",
+        "capture_dir": "/var/pyapps/pyNightSky/images/",
+        "capture_interval": 60,
+        "text_font": "Piboto-Regular.ttf",
+        "text_size": 60,
+        "text_color": "rgb(255, 255, 255)",
+        "text_location": "(5, 5)",
+        "brightness_factor": 100.0,
+        "contrast_factor": 100.0
+    },
+    "video": {
+        "capture_dir": "/var/pyapps/pyNightSky/videos/"
+    }
+}
